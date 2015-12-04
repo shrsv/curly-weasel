@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <sqlite3.h>
 
+// https://www.sqlite.org/quickstart.html
+
 static int callback(void *NotUsed, int argc, char **argv, char **azColName){
   int i;
   for(i=0; i<argc; i++){
